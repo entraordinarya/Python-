@@ -13,4 +13,4 @@ requests.DELETE ： 向网页提交删除请求，对应HTTP的DELETE
 其中get方法最为常用，返回一个response对象，而我们使用的html.text是response对象的属性之一，返回页面内容。
 2.用BeautifulSoup库解析网页内容，找到title。
 
-在
+其中我们使用了Python的容错机制，try....except....当网址错误或网页内容中没有title标签时，就会启用except，返回错误。
