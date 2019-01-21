@@ -1,7 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 def gethtml(url):
+    try:
     html=requests.get(url)
+    except:
+        return None
     try:
         soup=BeautifulSoup(html.text)
         title=soup.title
