@@ -1,0 +1,2 @@
+当我们爬取一个网址时，需要进行get请求，当关键字为英文时可直接爬取，当是汉字时需要转码，我们使用urllib.parse中的quote或urlencode 进行转码，quote和urlencode是两种不同的转码库，
+注意当使用urlencode时对象必须为字典类型，urlencode 可支持多个变量同时转码
