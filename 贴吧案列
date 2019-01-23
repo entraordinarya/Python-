@@ -1,1 +1,1 @@
-
+灵活运用urllib库中的urlopen,Request,urlencode抓取贴吧，以抓取小说贴吧前三页为例.输入想要抓取的内容和抓取的页数。
